@@ -18,12 +18,7 @@ h1 {font-weight: 900;
     border-radius: 5px;
     margin-top: 30px;
   }
-  .img-1 {
-    width: 581px;
-    height: 613px;
-    left: 801px;
-     top: 83px;
- }
+
  .container1 {
     width: 531px;
     height: 424px;
@@ -46,6 +41,13 @@ h1 {font-weight: 900;
         padding-left: 30px;
         
         }
+
+        .img-1 {
+            width: 581px;
+            height: 613px;
+            left: 801px;
+             top: 83px;
+         }
 
 
 /* ---------------
