@@ -36,14 +36,15 @@ h1 {font-weight: 900;
         color: white;
         background-color: rgb(26, 23, 23);
         display: flex;
-        width: 1300px;
+        width: 1225px;
         height: 646px;
         bottom: 50px;
         align-items: flex-end;
         justify-content: space-evenly;
         border-radius: 10px;
-        margin: 100px 70px 100px 70px ;
+        margin: 100px 70px 100px 57px ;
         padding-left: 30px;
+        
         }
 
 
@@ -92,17 +93,15 @@ h1 {font-weight: 900;
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
-    width: 312px;
-    height: 300px;
+    width: 285px;
+    height: 250px;
     padding: 0px 0px 70px 0px;
     margin: 10px;
-    border: ridge rgb(228, 214, 214) .80px;
+    border: ridge rgb(228, 214, 214) 0.80px;
     border-radius: 10px;
 }  
  
- .img-2{
-    margin-bottom: 10px;
- }
+ 
 
 .transfer {
     text-decoration: none;
@@ -112,6 +111,10 @@ h1 {font-weight: 900;
     padding: 8px 5px;
     margin: 10px;
 }
+
+.img-2{
+    margin-bottom: 10px;
+ }
 
 .feedback {
     width: 250px;
@@ -123,9 +126,10 @@ h1 {font-weight: 900;
 .middle-part {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 100px;
     
    }
-
+   
 /*-------website-2---------*/
 
 .box-2 {
@@ -133,8 +137,8 @@ h1 {font-weight: 900;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 312px;
-    height: 242px;
+    width: 285px;
+    height: 250px;
     padding: 0px 0px 0px 0px;
     margin: 10px;
     border: ridge rgb(228, 214, 214) .80px;
