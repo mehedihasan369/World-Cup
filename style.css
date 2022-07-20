@@ -18,7 +18,7 @@ h1 {font-weight: 900;
     border-radius: 5px;
     margin-top: 30px;
   }
-  img {
+  .img-1 {
     width: 581px;
     height: 613px;
     left: 801px;
@@ -36,7 +36,7 @@ h1 {font-weight: 900;
         color: white;
         background-color: rgb(26, 23, 23);
         display: flex;
-        width: 1200px;
+        width: 1300px;
         height: 646px;
         bottom: 50px;
         align-items: flex-end;
@@ -68,9 +68,63 @@ h1 {font-weight: 900;
         flex-direction: column;
         align-content: center;
         border-radius: 10px;
-        margin: 100px 20px 100px 70px;
+        margin: 10px 20px 100px 70px;
+        
         
        }
+
+      
+       /* ---------------
+------Grid part------
+----------------- */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog{
+    position: relative;
+    left: 8px;
+    }
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 312px;
+    height: 300px;
+    padding: 0px 0px 70px 0px;
+    margin: 10px;
+    border: ridge rgb(228, 214, 214) .80px;
+    border-radius: 10px;
+}  
+ 
+ .img-2{
+    margin-bottom: 10px;
+ }
+
+.transfer {
+    text-decoration: none;
+    color: black;
+    border: solid rgb(75, 67, 67) 2px;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin: 10px;
+}
+
+.feedback {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.middle-part {
+    display: flex;
+    align-items: flex-start;
+    
+   }
 
        /* ---------------
 ------footer------
