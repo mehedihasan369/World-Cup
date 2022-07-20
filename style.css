@@ -254,3 +254,88 @@ hr {
         }
 }
 
+
+/*===========================================================
+         Tab devices     
+==========================================================*/
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    header {
+        color: white;
+        background-color: rgb(26, 23, 23);
+        display: flex;
+        width: 100%;
+        height: 60%;
+        bottom: 50px;
+        align-items: flex-end;
+        justify-content: space-around;
+        border-radius: 10px;
+        margin: 100px 70px 100px 57px ;
+        padding-left: 30px;
+        
+        }
+
+        .heading { width: 200px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .container1 {
+            width: 350px;
+            height: 700px;  }
+        .img-1{
+            width: 350px;
+            height: 650px;
+
+        }
+
+
+
+
+
+
+
+    .middle-part{
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+    }
+    aside { display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+}
+
+ .link-button-2 {
+    border: solid gray 0.8px;
+    position: relative;
+    left: 35px;
+    margin: 10px 10px 10px 10px;
+    padding: 0 30px 0 30px;
+ }
+
+
+ .link-button {
+    border: solid rgb(231, 8, 8) 0.8px;
+    position: relative;
+    left: 35px;
+    margin: 10px 10px 10px 10px;
+ }
+      .blogs {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+
+         footer {
+            width: 100%;
+         }
+
+      hr {width: 90%;
+
+      }
+ 
+
+}
