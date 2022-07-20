@@ -1,1 +1,49 @@
-h1{background-color: green;}
+body {
+    margin: 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ---------------
+------header------
+----------------- */
+h1 {font-weight: 900;
+    font-size: 70px;
+}
+
+.link-button{
+    color: white;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  img {
+    width: 581px;
+    height: 613px;
+    left: 801px;
+     top: 83px;
+ }
+ .container1 {
+    width: 531px;
+    height: 424px;
+    left: 257px;
+    margin-bottom: 150px;
+    }
+    
+    
+    header {
+        color: white;
+        background-color: rgb(97, 94, 94);
+        display: flex;
+        width: 1321px;
+        height: 646px;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin: 120px 0px 100px 70px;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        }
+
+       
